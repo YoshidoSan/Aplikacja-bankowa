@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import com.dlsc.gmapsfx.GoogleMapView?>
+
+
+<VBox prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationScene.startMapSceneController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <GoogleMapView fx:id="mapView" maxHeight="200.0" maxWidth="200.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1"/>
+                <Button layoutX="508.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToStartWindow" prefHeight="25.0" prefWidth="120.0" text="Go back" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
