@@ -31,7 +31,8 @@ public class startMapSceneController extends SwitchScene implements Initializabl
                 .center(new LatLong(52.069372870063866, 19.48031990651607))
                 .mapType(MapTypeIdEnum.ROADMAP)
                 .zoom(5);
-        mapView.setKey("AIzaSyCOYWdOOddwtV9n835e7J-M1G6n4rFZyJE");
+            //insert api key here
+        mapView.setKey("");
         map = mapView.createMap(options);
 
         ArrayList<String[]> banks = Database_CL.getBanks();
