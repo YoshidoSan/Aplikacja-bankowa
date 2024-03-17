@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: C:\Users\Uzytkownik\Downloads\_temp_matlab_R2021a_win64\sys\
+ java\jre\win64\jre\lib\javafx.properties\jfxswf
+
